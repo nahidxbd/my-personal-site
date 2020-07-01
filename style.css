@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 40px;
+}
+img{
+    width: 100%;
+}
+.name-highlight{
+    color:  rgb(236,79,146);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+.top-banner{
+   
+    background-image: url("images/header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+section{
+   
+    height: 600px;
+    padding-bottom: 150px;
+}
+.profile, .info{
+    padding-top: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(236,79,146), rgb(236,75, 116));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.biography{
+    margin-top: 150px;
+}
+.third-header{
+    padding: 100px 0;
+    font-size: 35px;
+    text-align: center;
+    
+
+}
+.latest-work img {
+    width: 25%;
+    height: 250px;
+    margin-left: 80px;
+     
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    height: 400px;
+
+}
+#bottom-part h2{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.name{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.name p{
+    color: rgb(97, 96, 96);
+    position: relative;
+    bottom: 12px;
+}
+
+.description{
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: larger;
+}
+
+.contact{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 40%;
+    background-image: linear-gradient(45deg, rgb(236, 79, 146),rgb(236, 75, 116));
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+
+#bottom-part{
+    background-image: url("images/footer-bg.png");
+    height: 800px;
+    background-size: cover;
+}
+
+.contact h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact p{
+    font-size: larger;
+}
+#sms{
+    color: honeydew;
+}
+
+footer{
+    text-align: center;
+    color: rgb(85, 84, 84);
+}
